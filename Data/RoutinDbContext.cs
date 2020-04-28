@@ -24,21 +24,21 @@ namespace routin.Data
             modelBuilder.Entity<Company>().HasData(new Company
             {
 
-                Id = Guid.Parse("bbdee09c-089d-4e30-be42-bbdee09a"),
+                Id = Guid.Parse("bbdee09c-089d-4e30-be42-aaaabbdee09a"),
                 Name = "Micorsoft",
                 Introduction = "great compancy"
             },
             new Company
             {
 
-                Id = Guid.Parse("bbdee09c-089d-4e30-be42-bbdee09b"),
+                Id = Guid.Parse("bbdee09c-089d-4e30-be42-aaaabbdee09b"),
                 Name = "google",
                 Introduction = "no envy compancy"
             },
             new Company
             {
 
-                Id = Guid.Parse("bbdee09c-089d-4e30-be42-bbdee09c"),
+                Id = Guid.Parse("bbdee09c-089d-4e30-be42-aaaabbdee09c"),
                 Name = "aili",
                 Introduction = "Fubao"
             });
